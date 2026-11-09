@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+   overflow: hidden scroll;
+}
+
+body {
+   font-family: sans-serif;
+   font-weight: normal;
+   font-style: normal;
+   color: #647589;
+   font-size: 14px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+   font-family: 'Poppins', sans-serif;
+   color: #223645;
+   margin-top: 0;
+   font-weight: 600;
+   text-transform: inherit;
+   line-height: 1.1;
+}
+
+.swiper-button-next, .swiper-button-prev {
+   color: #79b9bf !important;
+}
+
+.swiper-button-prev::after, .swiper-button-next::after {
+   font-size: 20px !important;
+}
+
+.swiper-pagination-bullet-active {
+   background: #79b9bf !important;
+}
